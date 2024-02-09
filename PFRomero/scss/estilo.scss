@@ -1,0 +1,154 @@
+html {
+    background-color: palegoldenrod;}
+header{
+     text-align: center;
+     border-bottom: 1px solid black;
+     padding: 10px 20px;
+}
+main{
+     text-align: center;
+     margin: 20px;
+     padding: 20px;
+}
+
+footer{
+     text-align:center;
+}
+.mate {width: 800px;
+      height: 720px;
+}
+.mate3 {width: 720px;
+     height:720px;
+}
+
+.camiseta{width: 1100px;
+        height: 900px;
+}
+input,
+textarea { 
+display: block;
+width: 100%;
+padding: 10px;       
+border: 2px solid;
+border-radius: 5px;
+font-size: 16px;
+margin-bottom: 10px;
+}
+h1, h2, h3{
+     text-align: center;
+     text-decoration: underline;
+     margin: 20px 0px;
+}
+
+textarea { display: block;
+                  width: 100%;
+                  padding: 10px;
+                  border: 2px solid #fff;
+                  border-radius: 5px;
+                  font-size: 16px;
+                  margin-bottom: 10px;
+}
+.formcontacto{
+     margin-top: 20px;
+}
+
+.form {
+     background-color: black;
+     color: #fff;
+     border: none;
+     padding: 10px 20px;
+     border-radius: 5px;
+     font-size: 18px;   
+     cursor: pointer;
+     margin-top: 10px;    
+}
+input {width: 100%;
+     background: #ccc;
+     padding: 18px 15px;
+     border: 5px black;
+     outline: 0px;
+}
+label { display:block;
+font-weight: bold;
+margin-bottom: 5px;
+color: black;}
+p{
+     margin-top: 15px;
+     font-size: 25px;
+}
+.titulouno{
+     width: 100%;
+     background-color: burlywood;
+     padding: 15px;
+     margin: 20px 0;
+     margin-right: 30px;
+     
+}
+.titulodos{
+     width: 100%;
+     background-color: burlywood;
+     padding-bottom: 30px;
+     margin: 20px 0;
+     margin-right: 30px;
+     padding-top: 6px;
+                 
+}
+h1{
+     text-decoration: none;
+}
+h2{
+     font-size: 30px;
+     text-decoration: none;
+}
+
+.nav{
+     width: 100%;
+     display: flex;
+     align-content: center;
+     justify-content: space-between;
+     padding: 10px 0;
+ 
+}
+.nav ul{
+       width: 100%;
+       list-style-type: none;
+       text-align: center;
+       
+}
+.nav ul li{
+     display: inline-block;
+     margin: 20px 70px;
+     font-size: 25px;
+     
+
+}
+
+@media screen and (max-width: 400px){
+     header{  display: flex;
+            justify-content: center; 
+            align-items: center; 
+            max-width: 400px; 
+            height: auto; 
+            margin: 0 auto; 
+     }
+     header img{
+           max-width: 100%;
+           height: auto;
+     }
+     .titulouno{
+            display: flex;
+            justify-content: center; 
+            align-items: center; 
+            max-width: 400px; 
+            height: auto; 
+            margin: 20px auto;
+     }
+
+
+
+
+
+
+}
+
+
